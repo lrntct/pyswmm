@@ -61,7 +61,8 @@ copt =  {'msvc': ['/openmp', '/Ox'],
          'mingw32' : ['-O3', '-w', '-fopenmp', '-lgomp', '-lpthread'],
          'unix' : ['-O3', '-w', '-fopenmp']
          }
-lopt =  {'mingw32' : ['-lgomp', '-lpthread'],
+lopt =  {'msvc': ['-lm'],
+         'mingw32' : ['-lgomp', '-lpthread'],
          'unix' : ['-lgomp']
          }
 

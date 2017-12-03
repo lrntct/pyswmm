@@ -30,6 +30,7 @@ before_install:
       fi
 install: 
   - pip install -r requirements-travis.txt
+  - pip install .
 
 script:
   - py.test pyswmm

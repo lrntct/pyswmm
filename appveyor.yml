@@ -39,6 +39,9 @@ install:
   # Install the selected Qt version
   - "conda install --file requirements-test.txt -c spyder-ide"
   - IF "%PYTHON_VERSION%" == "2.7" conda install enum34
+  # get files from the submodule
+  - git submodule init
+  - git submodule update
   - "python setup.py develop"
 
 # Not a .NET project, we build in the install step instead

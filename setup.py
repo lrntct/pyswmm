@@ -42,7 +42,7 @@ def get_description():
 
 
 # get a list of SWMM source files
-OWASWMM_PATH = os.path.normpath(os.path.join(HERE, 'pyswmm', 'owaswmm'))
+OWASWMM_PATH = os.path.normpath(os.path.join('pyswmm', 'owaswmm'))
 SWMM_SOURCE = os.path.normpath(os.path.join(OWASWMM_PATH, 'src'))
 SWMM_INCLUDES = [SWMM_SOURCE, os.path.normpath(os.path.join(OWASWMM_PATH, 'include'))]
 

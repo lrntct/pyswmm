@@ -1,0 +1,3 @@
+[submodule "pyswmm/owaswmm"]
+	path = pyswmm/owaswmm
+	url = git@github.com:lrntct/Stormwater-Management-Model.git

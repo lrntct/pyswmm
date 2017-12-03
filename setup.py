@@ -42,8 +42,8 @@ def get_description():
 
 
 # get a list of SWMM source files
-SWMM_SOURCE = 'pyswmm/owaswmm/src/'
-SWMM_INCLUDES = [SWMM_SOURCE, 'pyswmm/owaswmm/include/']
+SWMM_SOURCE = os.path.join('pyswmm', 'owaswmm', 'src')
+SWMM_INCLUDES = [SWMM_SOURCE, os.path.join('pyswmm', 'owaswmm', 'include')]
 
 def swmm_get_source():
     """locate and return a list of source files

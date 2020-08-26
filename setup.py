@@ -42,9 +42,9 @@ REQUIREMENTS = ['six']
 
 
 setup(
-    name='pyswmm-locallib',
+    name='pyswmm',
     version=get_version(),
-    description='Python Wrapper for SWMM5 API. Uses locally installed SWMM5 library.',
+    description='Python Wrapper for SWMM5 API',
     long_description=get_description(),
     url='https://github.com/OpenWaterAnalytics/pyswmm/wiki',
     author='Bryant E. McDonnell (See AUTHORS)',
